@@ -1,0 +1,92 @@
+/**Google Fonts**/
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Euphoria+Script&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**General Styling**/
+h1 {
+    font-family: 'Euphoria Script', 'Lucida Sans', sans-serif;
+    font-size: 350%;
+    color: #73A9AD;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    color: #808080;
+}
+
+
+/**Header**/
+
+header {
+    background-color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 2px 2px 4px #c0c0c0;
+}
+
+header a {
+    text-decoration: none; /**Removes default hyperlink style**/
+    color: #808080;
+}
+
+
+#menu {
+    font-size: 110%;
+    list-style-type: none; /**Removes bullet or number style**/
+    text-align: right;
+    margin-right: 1.75rem;
+
+}
+
+#menu > li {
+    margin-bottom: 1em;
+
+}
+
+/**Identifies active nav element**/
+.active {
+    font-weight: bolder;
+    color: #73A9AD;
+    border-bottom: solid #73A9AD 2px;
+}
+
+/**Navbar styles with dropdown**/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    width: 100%;
+    left: 0px;
+    box-shadow: 2px 2px 4px #c0c0c0;
+    display: none; /**Hides nav when unchecked**/
+    top: 100%;
+}
+
+/**Nav Toggle displays block when checked**/
+#nav-bar:checked~nav {
+    display: block;
+}
+
+/**hides checkbox**/
+#nav-bar {
+    display: none;
+}
+
+/**Label is bar icon**/
+.nav-bar-label {
+    font-size: 2rem;
+    color: #c0c0c0;
+    margin-right: 1rem;
+}
