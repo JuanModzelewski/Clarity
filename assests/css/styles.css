@@ -1,6 +1,7 @@
 /**Google Fonts**/
 @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Euphoria+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Euphoria+Script&family=Poiret+One&display=swap');
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
@@ -12,7 +13,11 @@
 /*General Styling*/
 h1 {
     font-family: 'Euphoria Script', 'Lucida Sans', sans-serif;
-    font-size: 350%;
+    color: #73A9AD;
+}
+
+h2 {
+    font-family: 'Poiret One', sans-serif;
     color: #73A9AD;
 }
 
@@ -38,6 +43,10 @@ header {
     align-items: baseline;
     box-shadow: 2px 2px 4px #c0c0c0;
     z-index: 99; /*Positions header above all other elements*/
+}
+
+#logo {
+    font-size: 350%;
 }
 
 header a {
@@ -109,7 +118,30 @@ main {
     background-position: 25% center;
 }
 
+#banner-home h2 {
+    color: #ffffff;
+    font-size: 32px;
+    padding: 1rem;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
 
+#banner-home p {
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+#banner-quote {
+    width: 90%;
+    padding: 0.75rem;
+    text-align: center;
+    border-radius: 10%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
 
 
 
