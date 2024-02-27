@@ -106,10 +106,12 @@ nav {
 
 
 /*Main Content*/
+
 main {
     flex: 1 0 auto;
 }
 
+/*Banner Section*/
 #banner-home {
     background: url("../images/pexels-noelle-otto-906097.jpg") no-repeat center center / cover;
     width: 100%;
@@ -142,6 +144,33 @@ main {
     right: 5%;
     top: 5%;
 }
+
+
+/*Benefits Section*/
+
+#benefits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+#benefits-second h2, #benefits-third h2 {
+    margin-top: 1rem;
+}
+
+#benefits p {
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+}
+
+#benefits-image {
+    background: url("../images/meditation-yoga-sitting-exercise-illustration.png") no-repeat center center / cover;
+    border-radius: 50%;
+    max-height: 300px;
+    max-width: 300px;
+}
+
 
 
 /*Footer*/
