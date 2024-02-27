@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Euphoria+Script&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser */
+/*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/**General Styling**/
+/*General Styling*/
 h1 {
     font-family: 'Euphoria Script', 'Lucida Sans', sans-serif;
     font-size: 350%;
@@ -17,13 +17,16 @@ h1 {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: 'Comfortaa', sans-serif;
     color: #808080;
 }
 
 
-/**Header**/
 
+/*Header*/
 header {
     background-color: #ffffff;
     padding: 0.75rem 1.5rem;
@@ -34,36 +37,34 @@ header {
     justify-content: space-between;
     align-items: baseline;
     box-shadow: 2px 2px 4px #c0c0c0;
-    
+    z-index: 99; /*Positions header above all other elements*/
 }
 
 header a {
-    text-decoration: none; /**Removes default hyperlink style**/
+    text-decoration: none; /*Removes default hyperlink style*/
     color: #808080;
 }
 
-
 #menu {
     font-size: 110%;
-    list-style-type: none; /**Removes bullet or number style**/
+    list-style-type: none; /*Removes bullet or number style*/
     text-align: right;
     margin-right: 1.75rem;
-
 }
 
 #menu > li {
     margin-bottom: 1em;
-
 }
 
-/**Identifies active nav element**/
+/*Identifies active nav element*/
+
 .active {
     font-weight: bolder;
     color: #73A9AD;
     border-bottom: solid #73A9AD 2px;
 }
 
-/**Navbar styles with dropdown**/
+/*Navbar styles with dropdown*/
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -71,28 +72,48 @@ nav {
     width: 100%;
     left: 0px;
     box-shadow: 2px 2px 4px #c0c0c0;
-    display: none; /**Hides nav when unchecked**/
+    display: none; /*Hides nav when unchecked*/
     top: 100%;
 }
 
-/**Nav Toggle displays block when checked**/
+/*Nav Toggle displays block when checked*/
 #nav-bar:checked~nav {
     display: block;
 }
 
-/**hides checkbox**/
+/*Hides checkbox*/
 #nav-bar {
     display: none;
 }
 
-/**Label is bar icon**/
+/*Label is bar icon*/
 .nav-bar-label {
     font-size: 2rem;
     color: #c0c0c0;
     margin-right: 1rem;
 }
 
-/* Media Query: Small Tablets & Landscape mobile*/
+
+
+/*Main Content*/
+main {
+    flex: 1 0 auto;
+    margin-top: 89px;
+}
+
+#banner-home {
+    background: url("../images/pexels-noelle-otto-906097.jpg") no-repeat center center / cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-position: 25% center;
+}
+
+
+
+
+
+/*Media Query: Small Tablets & Landscape mobile*/
 @media screen and (min-width:768px) {
     
     header {
@@ -128,7 +149,7 @@ nav {
     }
 }
 
-/* Media Query: Large tablets and responsive desktop*/
+/*Media Query: Large tablets and responsive desktop*/
 @media screen and (min-width:1024px) {
     
     h1 {
