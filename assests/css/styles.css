@@ -166,7 +166,7 @@ main {
     text-align: center;
     color: #ffffff;
     margin-bottom: 0.75rem;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 300;
 }
 
@@ -174,7 +174,7 @@ main {
     text-align: center;
     color: #ffffff;
     line-height: 1.5rem;
-    font-size: 15px;
+    font-size: 16px;
 
 }
 
@@ -187,7 +187,7 @@ main {
 }
 
 .benefits-heading {
-    font-size: 36px;
+    font-size: 38px;
     font-weight: bolder;
     color: #2b777c;
     border-bottom: 2px solid #2b777c;
@@ -200,7 +200,7 @@ main {
 #benefits-second h3, 
 #benefits-first h3 {
     color: #2b777c;
-    font-size: 28px;
+    font-size: 32px;
     margin-top: 1rem;
 }
 
@@ -215,7 +215,7 @@ main {
 }
 
 #benefits p {
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0.5rem;
     line-height: 1.5rem;
 }
