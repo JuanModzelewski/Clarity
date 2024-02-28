@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Euphoria+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Euphoria+Script&family=Poiret+One&display=swap');
 
+
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
@@ -17,10 +18,6 @@ h1 {
 
 h2 {
     font-family: 'Poiret One', sans-serif;
-}
-
-h3 {
-    font-family: 'Euphoria Script', 'Lucida Sans', sans-serif;
 }
 
 body {
@@ -109,7 +106,6 @@ nav {
 
 
 /*Main Content*/
-
 main {
     flex: 1 0 auto;
 }
@@ -155,22 +151,21 @@ main {
     justify-content: center;
     width: 100%;
     background-color: #73A9AD;
-    padding: 5%;
+    padding: 1.5rem;
 }
 
 #about-clarity div {
-    height: 90%;
     border-radius: 10px;
-    padding: 5%;
+    padding: 1.5rem;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-#about-clarity h3 {
+#about-clarity h2 {
     text-align: center;
     color: #ffffff;
     margin-bottom: 0.75rem;
-    font-size: 38px;
-    font-weight: 300;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 #about-clarity p {
@@ -186,12 +181,12 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 5% 5% 5%;
+    padding: 0 2rem 2rem 2rem;
 }
 
-.benefits-heading {
-    font-size: 38px;
-    font-weight: bolder;
+#benefits > h2 {
+    font-size: 32px;
+    font-weight: bold;
     color: #2b777c;
     border-bottom: 2px solid #2b777c;
     text-align: center;
@@ -200,10 +195,11 @@ main {
     order: 1;
 }
 
-#benefits-second h3, 
-#benefits-first h3 {
+#benefits-second h2, 
+#benefits-first h2 {
     color: #2b777c;
-    font-size: 32px;
+    font-size: 26px;
+    font-weight: bold;
     margin-top: 1rem;
 }
 
@@ -368,8 +364,12 @@ main {
         padding: 2rem;
     }
 
-    #about-clarity h3 {
-        font-size: 48px;
+    #about-clarity div{
+        padding: 2rem 10% 2rem 10%;
+    }
+
+    #about-clarity h2 {
+        font-size: 36px;
     }
 
     #about-clarity p {
@@ -379,13 +379,13 @@ main {
 
     /*Benefits Section*/
 
-    .benefits-heading {
-        font-size: 48px;
+    #benefits h2 {
+        font-size: 36px;
     }
 
-    #benefits-second h3, 
-    #benefits-first h3 {
-        font-size: 40px;
+    #benefits-second h2, 
+    #benefits-first h2 {
+        font-size: 30px;
     }
 
     #benefits-first {
@@ -393,7 +393,7 @@ main {
     }
 
     #benefits-second{
-        width: 45%;
+        width: 40%;
     }
 
     #benefits p {
