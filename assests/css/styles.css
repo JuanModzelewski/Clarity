@@ -13,12 +13,14 @@
 /*General Styling*/
 h1 {
     font-family: 'Euphoria Script', 'Lucida Sans', sans-serif;
-    color: #73A9AD;
 }
 
 h2 {
     font-family: 'Poiret One', sans-serif;
-    color: #73A9AD;
+}
+
+h3 {
+    font-family: 'Euphoria Script', 'Lucida Sans', sans-serif;
 }
 
 body {
@@ -26,7 +28,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Comfortaa', sans-serif;
-    color: #808080;
+    color: #555555;
 }
 
 
@@ -48,6 +50,7 @@ header {
     font-size: 350%;
     padding: 5px;
     margin-left: 20px;
+    color: #2b777c;
 }
 
 header a {
@@ -71,8 +74,8 @@ header a {
 /*Identifies active nav element*/
 .active {
     font-weight: bolder;
-    color: #73A9AD;
-    border-bottom: solid #73A9AD 2px;
+    color: #2b777c;
+    border-bottom: solid #2b777c 2px;
 }
 
 /*Navbar styles with dropdown*/
@@ -145,42 +148,79 @@ main {
     top: 5%;
 }
 
+/*About clarity*/
+
+#about-clarity {
+    width: 100%;
+    background-color: #73A9AD;
+    padding: 1rem;
+}
+
+#about-clarity div {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#about-clarity h3 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0.75rem;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#about-clarity p {
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.5rem;
+    font-size: 15px;
+
+}
 
 /*Benefits Section*/
 #benefits {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
-#benefits > h2 {
-    font-size: 200%;
+.benefits-heading {
+    font-size: 36px;
     font-weight: bolder;
-    border-bottom: 2px solid #73A9AD;
-    width: 100%;
+    color: #2b777c;
+    border-bottom: 2px solid #2b777c;
     text-align: center;
     padding: 1rem 0 1rem 0;
+    width: 100%;
+    order: 1;
 }
 
-#benefits-second h2, #benefits-third h2 {
+#benefits-second h3, 
+#benefits-first h3 {
+    color: #2b777c;
+    font-size: 28px;
     margin-top: 1rem;
 }
 
-#benefits-third {
+#benefits-first {
     margin: 0 1.5rem;
+    order: 2;
 }
 
 #benefits-second{
     margin: 0 1.5rem;
+    order: 3;
 }
 
 #benefits p {
+    font-size: 15px;
     margin-top: 0.5rem;
     line-height: 1.5rem;
 }
 
-/*#benefits-image {
+#benefits-image {
     background: url("../images/meditation-yoga-sitting-exercise-illustration.png") no-repeat center center / cover;
     width: 50vw;
     height: 50vw;
@@ -188,7 +228,8 @@ main {
     max-width: 250px;
     -webkit-filter: drop-shadow(3px 3px 3px #636363);
     filter: drop-shadow(3px 3px 3px #636363);
-}*/
+    order: -1;
+}
 
 
 
