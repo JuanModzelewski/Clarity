@@ -148,18 +148,21 @@ main {
     top: 5%;
 }
 
-/*About clarity*/
 
+/*About clarity*/
 #about-clarity {
+    display: flex;
+    justify-content: center;
     width: 100%;
     background-color: #73A9AD;
-    padding: 1rem;
+    padding: 5%;
 }
 
 #about-clarity div {
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 90%;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 #about-clarity h3 {
@@ -183,7 +186,7 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 5% 5% 5%;
 }
 
 .benefits-heading {
@@ -205,11 +208,13 @@ main {
 }
 
 #benefits-first {
+    width: 90%;
     margin: 0 1.5rem;
     order: 2;
 }
 
 #benefits-second{
+    width: 90%;
     margin: 0 1.5rem;
     order: 3;
 }
@@ -320,7 +325,7 @@ main {
         margin-left: 40px;
     }
 
-    h1 {
+    #logo h1 {
         font-size: 50px;
     }
 
@@ -356,4 +361,49 @@ main {
         line-height: 55px;
         background-color: rgba(0, 0, 0, 0.15)
     }
+
+    /*About clarity*/
+
+    #about-clarity {
+        padding: 2rem;
+    }
+
+    #about-clarity h3 {
+        font-size: 48px;
+    }
+
+    #about-clarity p {
+        line-height: 1.75rem;
+        font-size: 18px;
+    }
+
+    /*Benefits Section*/
+
+    .benefits-heading {
+        font-size: 48px;
+    }
+
+    #benefits-second h3, 
+    #benefits-first h3 {
+        font-size: 40px;
+    }
+
+    #benefits-first {
+        width: 40%;
+    }
+
+    #benefits-second{
+        width: 45%;
+    }
+
+    #benefits p {
+        font-size: 18px;
+        line-height: 1.75rem;
+    }
+
+    #benefits-image {
+        max-height: 350px;
+        max-width: 350px;
+    }
+
 }
