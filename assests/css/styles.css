@@ -233,6 +233,67 @@ main {
 }
 
 
+/*Selection Section*/
+#selection-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+
+.options {
+    margin-top: 1.5rem;
+    width: 425px;
+    display: grid;
+    grid-template-columns: auto 200px;
+    justify-content: center;
+}
+
+#get-started-image {
+    background-color: #2b777c;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
+
+#signup-image {
+    background-color: #2b777c;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
+
+#resource-image {
+    background-color: #2b777c;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
+
+.information {
+    background-color: #73A9AD;
+    height: 70%;
+    width: 115%;
+    z-index: -1;
+    position: relative;
+    left: -15%;
+    top: 15%;
+    padding: 2rem 1rem 1rem 2rem;
+    border-radius: 10px;
+}
+
+.information h2 {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 2px #000000;
+}
 
 /*Footer*/
 #social-media {
