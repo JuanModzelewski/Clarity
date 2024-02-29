@@ -239,7 +239,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -261,7 +261,7 @@ main {
 }
 
 #signup-image {
-    background-image: url("");
+    background: url("../images/pexels-yan-krukau-8436735.jpg") no-repeat center center / cover;
     background-color: #2b777c;
     border-radius: 50%;
     width: 175px;
