@@ -377,6 +377,59 @@ main {
     margin-left: 1.5rem;
 }
 
+/*Meditation Types*/
+#meditation-techniques {
+    width: 100%;
+}
+
+#about-techniques {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about-techniques  h2 {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #2b777c;
+}
+
+#about-techniques > p {
+    text-align: center;
+    width: 80%;
+    margin: 2rem 0 1rem;
+    line-height: 1.5rem;
+}
+
+#diffrent-techniques {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#diffrent-techniques div {
+    border: #2b777c 2px solid;
+    border-radius: 10px;
+    padding: 0 1.5rem;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+#diffrent-techniques div h2 {
+    color: #2b777c;
+    padding: 1rem 0;
+}
+
+#diffrent-techniques div p {
+    line-height: 1.5rem;
+    padding: 0 0 2rem;
+}
+
+
 
 /*Media Query: Small Tablets & Landscape mobile*/
 @media screen and (min-width:768px) {
@@ -547,11 +600,12 @@ main {
 
     #method-image {
         height: revert;
-        width: 50%;
+        width: 40%;
     }
 
     #method-instructions{
-        width: 50%;
+        width: 60%;
+        padding-right: 5rem;
     }
 
 }
