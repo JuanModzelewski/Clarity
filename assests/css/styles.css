@@ -338,28 +338,45 @@ main {
 #method-image {
     height: 300px;
     width: 100%;
-    background-color: #73A9AD;
-
+    background: url("../images/pexels-katrin-bolovtsova-7113344.jpg") no-repeat center center / cover;
 }
 
 #method-instructions{
     height: fit-content;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     width: 100%;
 }
 
 #method-instructions li {
     margin-top: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding-left: 0.75rem;
+    color: #2b777c;
+    font-weight: bold;
 }
 
+#method-instructions li h2 {
+    font-size: 1.5rem;
+}
+
+#method-instructions > h2 {
+    color: #2b777c;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    border-bottom: #2b777c solid 2px;
+    padding-bottom: 1rem;
+}
 
 #method-instructions p {
     margin-top: 0.75rem;
     line-height: 1.5rem;
     padding-left: 0.75rem;
 }
+
+#method-instructions ol {
+    margin-left: 1.5rem;
+}
+
 
 /*Media Query: Small Tablets & Landscape mobile*/
 @media screen and (min-width:768px) {
@@ -417,15 +434,16 @@ main {
     /*Main Get-Started HTML*/
     /*Method Section*/
     #basic-method {
-        margin-top: 70px;
+        margin-top: 75px;
     }
 
     #method-image {
         width: 100%;
-    }
+        height: 400px;
+        }
 
     #method-instructions{
-        width: 90%;
+        width: 80%;
     }
 
       
@@ -441,7 +459,7 @@ main {
     }
 
     #menu a {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     #menu li {
@@ -524,7 +542,7 @@ main {
     /*Main Get-Started HTML*/
     /*Method Section*/
     #basic-method {
-        margin-top: 70px;
+        margin-top: 93px;
     }
 
     #method-image {
@@ -539,9 +557,17 @@ main {
 }
 
 /*Media Query: Large tablets and responsive desktop*/
-@media screen and (min-width:1980px) {
+@media screen and (min-width:1400px) {
     #method-instructions div {
-        width: 80%;
+        width: 90%;
+    }
+    
+    #method-image {
+        width: 50%;
+    }
+
+    #method-instructions{
+        width: 50%;
     }
 
 
