@@ -343,7 +343,7 @@ main {
 
 #method-instructions{
     height: fit-content;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     width: 100%;
 }
 
@@ -415,7 +415,7 @@ main {
     border: #2b777c 2px solid;
     border-radius: 10px;
     padding: 0 1.5rem;
-    margin-top: 2rem;
+    margin: 2rem;
     width: 80%;
 }
 
@@ -613,16 +613,24 @@ main {
 /*Media Query: Large tablets and responsive desktop*/
 @media screen and (min-width:1400px) {
     #method-instructions div {
-        width: 90%;
+        width: 80%;
     }
     
     #method-image {
-        width: 50%;
+        width: 40%;
     }
 
     #method-instructions{
-        width: 50%;
+        width: 60%;
+    }
+
+    #about-techniques p {
+        width: 60%;
     }
 
 
+    #diffrent-techniques div {
+        width: 60%;
+        
+    }
 }
