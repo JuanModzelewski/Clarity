@@ -435,22 +435,24 @@ main {
 
 #music-resources {
     margin-top: 76px;
+    padding-bottom: 32px;
     background-color: #73A9AD;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 
 #music-resources > h2 {
-    width: 90%;
+    width: 80%;
     margin: 1rem 0;
     padding-bottom: 1rem;
-    color: #174144;
+    color: #0e6268;
     border-bottom: #0e6268 2px solid;
     letter-spacing: 0.5rem;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 
@@ -458,47 +460,36 @@ main {
 #music-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    width: 90%;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
     height: auto;
 }
 
-#music-container a {
-    text-decoration: none;
-}
 
 .resource-links {
-    position: relative;
+    width: 250px;
+    height: auto;
     margin: 1rem;
     padding: 1rem;
-    width: 300px;
-    height: 300px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.404)
 }
 
-.resource-links i {
-    position: absolute;
-    top: 15%;
-    left: 30%;
-    color: #ffffff;
-    font-size: 7rem;
-    text-shadow: 4px 4px 8px #000000;
-}
-
-.resource-links h2 {
-    color: #2b777c;
-}
-
-.music-thumbnail {
-    margin: auto;
-    height: 70%;
+.resource-links iframe {
+    height: 150px;
     width: 100%;
     border-radius: 10px;
-    background-color: #ffffff;
 }
+
+.music-title {
+    color: #0e6268;
+    width: auto;
+    margin: 0.75rem 0 0.75rem;
+    line-height: 2rem;
+}
+
 
 /*Media Query: Small Tablets & Landscape mobile*/
 @media screen and (min-width:768px) {
@@ -568,24 +559,6 @@ main {
         width: 80%;
     }
 
-
-
-    .resource-links {
-        width: 175px;
-        height: 175px;
-    }
-
-    .resource-links i {
-        top: 18%;
-        left: 32%;
-        font-size: 4rem;
-    }
-    
-    .resource-links h2 {
-        color: #2b777c;
-        font-size: 20px;
-    }
-      
 }
 
 /*Media Query: Large tablets and responsive desktop*/
@@ -692,6 +665,11 @@ main {
     #method-instructions{
         width: 60%;
         padding-right: 5rem;
+    }
+
+
+    #music-resources {
+        margin-top: 93px;
     }
 
 }
