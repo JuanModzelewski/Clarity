@@ -429,7 +429,76 @@ main {
     padding: 0 0 2rem;
 }
 
+/*Resources HTML*/
+/*Main Conetent*/
+/*Music Resources*/
 
+#music-resources {
+    margin-top: 76px;
+    background-color: #73A9AD;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#music-resources > h2 {
+    width: 90%;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    color: #174144;
+    border-bottom: #0e6268 2px solid;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+#music-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+}
+
+#music-container a {
+    text-decoration: none;
+}
+
+.resource-links {
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.404)
+}
+
+.resource-links i {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: #ffffff;
+    font-size: 7rem;
+    text-shadow: 4px 4px 8px #000000;
+}
+
+.resource-links h2 {
+    color: #2b777c;
+}
+
+.music-thumbnail {
+    margin: auto;
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
 
 /*Media Query: Small Tablets & Landscape mobile*/
 @media screen and (min-width:768px) {
@@ -499,6 +568,23 @@ main {
         width: 80%;
     }
 
+
+
+    .resource-links {
+        width: 175px;
+        height: 175px;
+    }
+
+    .resource-links i {
+        top: 18%;
+        left: 32%;
+        font-size: 4rem;
+    }
+    
+    .resource-links h2 {
+        color: #2b777c;
+        font-size: 20px;
+    }
       
 }
 
