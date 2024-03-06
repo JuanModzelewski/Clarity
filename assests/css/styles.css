@@ -205,13 +205,13 @@ main {
 }
 
 #benefits-first {
-    width: 90%;
+    width: auto;
     margin: 0 1.5rem;
     order: 2;
 }
 
 #benefits-second{
-    width: 90%;
+    width: auto;
     margin: 0 1.5rem;
     order: 3;
 }
