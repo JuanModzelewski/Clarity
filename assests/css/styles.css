@@ -430,7 +430,7 @@ main {
 }
 
 /*Resources HTML*/
-/*Main Conetent*/
+/*Main Content*/
 /*Music Resources*/
 
 #music-resources {
@@ -442,7 +442,6 @@ main {
     justify-content: center;
     align-items: center;
 }
-
 
 #music-resources > h2 {
     width: 80%;
@@ -456,7 +455,6 @@ main {
     text-transform: uppercase;
 }
 
-
 #music-container {
     display: flex;
     flex-direction: row;
@@ -467,14 +465,13 @@ main {
     height: auto;
 }
 
-
 .resource-links {
     width: 250px;
     height: auto;
     margin: 1rem;
     padding: 1rem;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.404)
+    background-color: rgba(255, 255, 255, 0.404);
 }
 
 .resource-links iframe {
@@ -483,12 +480,60 @@ main {
     border-radius: 10px;
 }
 
-.music-title {
+.resource-title {
     color: #0e6268;
-    width: auto;
-    margin: 0.75rem 0 0.75rem;
+    font-size: 1.25rem;
     line-height: 2rem;
+    letter-spacing: 1px;
 }
+
+
+/*Video Section*/
+#video-resources {
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-resources > h2 {
+    width: 80%;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    color: #0e6268;
+    border-bottom: #0e6268 2px solid;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#video-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    height: auto;
+}
+
+.video-resource-links {
+    width: 250px;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #2b777c6e;
+}
+
+.video-resource-links iframe {
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 
 /*Media Query: Small Tablets & Landscape mobile*/
@@ -540,7 +585,7 @@ main {
         right: 10%;
         top: 10%;
         line-height: 2.5rem;
-        background-color: rgba(0, 0, 0, 0.15)
+        background-color: rgba(0, 0, 0, 0.15);
     }
 
 
@@ -667,7 +712,10 @@ main {
         padding-right: 5rem;
     }
 
-
+    
+    /*Resources HTML*/
+    /*Main Conetent*/
+    /*Music Resources*/
     #music-resources {
         margin-top: 93px;
     }
