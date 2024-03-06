@@ -145,7 +145,6 @@ main {
     top: 5%;
 }
 
-
 /*About clarity*/
 #about-clarity {
     display: flex;
@@ -239,7 +238,6 @@ main {
     width: 350px;
 }
 
-
 /*Selection Section*/
 #selection-section {
     width: 100%;
@@ -249,7 +247,6 @@ main {
     margin-bottom: 32px;
 }
 
-
 .options {
     margin-top: 1.5rem;
     width: 425px;
@@ -258,31 +255,26 @@ main {
     justify-content: center;
 }
 
-#get-started-image {
-    background: url("../images/pexels-nataliya-vaitkevich-5201529.jpg") no-repeat center center / cover;
+#get-started-image,
+#signup-image,
+#resource-image {
     background-color: #2b777c;
     border-radius: 50%;
     width: 175px;
     height: 175px;
     z-index: 2;
+}
+
+#get-started-image {
+    background: url("../images/pexels-nataliya-vaitkevich-5201529.jpg") no-repeat center center / cover;
 }
 
 #signup-image {
     background: url("../images/pexels-yan-krukau-8436735.jpg") no-repeat center center / cover;
-    background-color: #2b777c;
-    border-radius: 50%;
-    width: 175px;
-    height: 175px;
-    z-index: 2;
 }
 
 #resource-image {
     background: url("../images/zen-5533494_640.jpg") no-repeat center center / cover;
-    background-color: #2b777c;
-    border-radius: 50%;
-    width: 175px;
-    height: 175px;
-    z-index: 2;
 }
 
 .information {
@@ -314,7 +306,7 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-    background-color: #90c8ac;
+    background-color: #2b777c;
     padding: 20px;
     list-style-type: none;
 }
@@ -324,6 +316,7 @@ main {
     font-size: 2rem;
     text-shadow: 1px 1px 2px #505050;
 }
+
 
 /*Main Get-Started HTML*/
 /*Method Section*/
@@ -429,11 +422,10 @@ main {
     padding: 0 0 2rem;
 }
 
-/*Resources HTML*/
-/*Main Content*/
-/*Music Resources*/
 
-#music-resources {
+/*Resources HTML*/
+#music-resources, 
+#video-resources {
     margin-top: 76px;
     padding-bottom: 32px;
     background-color: #73A9AD;
@@ -443,60 +435,12 @@ main {
     align-items: center;
 }
 
-#music-resources > h2 {
-    width: 80%;
-    margin: 1rem 0;
-    padding-bottom: 1rem;
-    color: #0e6268;
-    border-bottom: #0e6268 2px solid;
-    letter-spacing: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-#music-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 80%;
-    height: auto;
-}
-
-.resource-links {
-    width: 250px;
-    height: auto;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.404);
-}
-
-.resource-links iframe {
-    height: 150px;
-    width: 100%;
-    border-radius: 10px;
-}
-
-.resource-title {
-    color: #0e6268;
-    font-size: 1.25rem;
-    line-height: 2rem;
-    letter-spacing: 1px;
-}
-
-
-/*Video Section*/
 #video-resources {
-    padding-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: #ffffff;
+    margin-top: 16px
 }
 
+#music-resources > h2,
 #video-resources > h2 {
     width: 80%;
     margin: 1rem 0;
@@ -509,6 +453,7 @@ main {
     text-transform: uppercase;
 }
 
+#music-container,
 #video-container {
     display: flex;
     flex-direction: row;
@@ -519,21 +464,33 @@ main {
     height: auto;
 }
 
+.music-resource-links,
 .video-resource-links {
     width: 250px;
     height: auto;
     margin: 1rem;
     padding: 1rem;
     border-radius: 10px;
-    background-color: #2b777c6e;
+    background-color: rgba(255, 255, 255, 0.404);
 }
 
-.video-resource-links iframe {
+.video-resource-links {
+    background-color: #2b777c44;
+}
+
+.music-resource-links > iframe,
+.video-resource-links > iframe{
     height: 150px;
     width: 100%;
     border-radius: 10px;
 }
 
+.resource-title {
+    color: #0e6268;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
 
 
 /*Media Query: Small Tablets & Landscape mobile*/
