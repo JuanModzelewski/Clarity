@@ -492,6 +492,70 @@ main {
     letter-spacing: 1px;
 }
 
+/*Signup HTML*/
+/*Mentors*/
+
+#mentor-profiles {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#mentor-profiles > h2 {
+    width: 80%;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    color: #0e6268;
+    border-bottom: #0e6268 2px solid;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+.mentor-options {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+#george-mentor,
+#kylie-mentor {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+#george-mentor {
+    background: url("../images/pexels-ivan-samkov-6648556.jpg") no-repeat top center / cover;
+}
+
+#kylie-mentor {
+    background: url("../images/pexels-valeria-ushakova-3094215.jpg") no-repeat center center / cover;
+}
+
+.about-george,
+.about-kylie {
+    height: auto;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #2b777c;
+    color: #ffffff;
+    line-height: 1.5rem;
+}
+
+.about-george p,
+.about-kylie p {
+    margin-top: 1rem;
+}
+
 
 /*Media Query: Small Tablets & Landscape mobile*/
 @media screen and (min-width:768px) {
@@ -559,6 +623,30 @@ main {
 
     #method-instructions{
         width: 80%;
+    }
+
+    /*Signup HTML*/
+    /*Mentors*/
+
+    .mentor-options {
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    
+    #george-mentor,
+    #kylie-mentor {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .about-george,
+    .about-kylie {
+        height: 200px;
+        width: 350px;
+        border-radius: 0 10px 10px 0;
     }
 
 }
@@ -677,6 +765,28 @@ main {
         margin-top: 93px;
     }
 
+    
+    #mentor-profiles {
+        margin-top: 93px;
+    }
+
+    .mentor-options {
+        grid-template-columns: auto;
+        margin: 1.5rem;
+    }
+    
+    #george-mentor,
+    #kylie-mentor {
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .about-george,
+    .about-kylie {
+        border-radius: 10px;
+    }
+
+
+    
 }
 
 /*Media Query: Large tablets and responsive desktop*/
