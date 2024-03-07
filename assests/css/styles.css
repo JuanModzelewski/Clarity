@@ -494,7 +494,6 @@ main {
 
 /*Signup HTML*/
 /*Mentors*/
-
 #mentor-profiles {
     margin-top: 75px;
     display: flex;
@@ -504,7 +503,7 @@ main {
 }
 
 #mentor-profiles > h2 {
-    width: 80%;
+    width: 90%;
     margin: 1rem 0;
     padding-bottom: 1rem;
     color: #0e6268;
@@ -514,7 +513,6 @@ main {
     font-weight: bolder;
     text-transform: uppercase;
 }
-
 
 .mentor-options {
     display: grid;
@@ -556,6 +554,83 @@ main {
     margin-top: 1rem;
 }
 
+/*Form*/
+#mentor-signup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    background: url("../images/pexels-life-of-pix-7640.jpg");
+    background-size: cover;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    margin: 10% 0 10% 0;
+    width: 80%;
+    height: auto;
+    background-color: #00000070;
+    border-radius: 10px;
+}
+
+.text-input {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #0e6268;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 25px;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.input-labels {
+    color: #ffffff;
+}
+
+#checkbox {
+    width: auto;
+}
+
+#checkbox legend {
+    color: #ffffff;
+    padding: 0.5rem;
+}
+
+#signup-form  div {
+    width:  100%;
+}
+
+#checkbox div {
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.checkbox-label {
+    padding-left: 0.5rem;
+    color: #ffffff;
+}
+
+.sumbit-button {
+    align-self: flex-start;
+    height: 40px;
+    width: 100px;
+    margin-top: 1rem;
+    background-color: #0e6268;
+    color: #ffffff;
+    font-weight:500;
+    font-size: 1rem;
+    border-radius: 10px;
+
+}
 
 /*Media Query: Small Tablets & Landscape mobile*/
 @media screen and (min-width:768px) {
@@ -649,6 +724,35 @@ main {
         border-radius: 0 10px 10px 0;
     }
 
+    #signup-form {
+        width: 500px;
+    }
+    
+    .text-input {
+        max-width: 400px;
+    }
+    
+    #checkbox {
+        max-width: 400px;
+    }
+    
+    #signup-form  div {
+        max-width: 400px;
+    }
+    
+    #checkbox div {
+        max-width: 400px;
+    }
+    
+    .checkbox-label {
+        padding-left: 0.5rem;
+        color: #ffffff;
+    }
+    
+    .sumbit-button {
+        margin-left: 1.5rem;
+    }
+
 }
 
 /*Media Query: Large tablets and responsive desktop*/
@@ -690,7 +794,7 @@ main {
         right: 10%;
         top: 20%;
         line-height: 55px;
-        background-color: rgba(0, 0, 0, 0.15)
+        background-color: rgba(0, 0, 0, 0.15);
     }
 
     /*About clarity*/
@@ -766,6 +870,8 @@ main {
     }
 
     
+    /*Signup HTML*/
+    /*Mentors*/
     #mentor-profiles {
         margin-top: 93px;
     }
@@ -784,7 +890,6 @@ main {
     .about-kylie {
         border-radius: 10px;
     }
-
 
     
 }
@@ -810,6 +915,5 @@ main {
 
     #diffrent-techniques div {
         width: 60%;
-        
     }
 }

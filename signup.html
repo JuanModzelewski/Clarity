@@ -58,6 +58,59 @@
             </div>
         </section>
 
+        <section id="mentor-signup">
+            <form id="signup-form" name="signup-form" method="post" action="https://formdump.codeinstitute.net">
+                <div>
+                    <label for="name" class="input-labels">Name:</label>
+                    <br>
+                    <input name="name" type="text" id="fname" class="text-input">
+                </div>
+                <div>               
+                    <label for="lastname" class="input-labels">Surname:</label>
+                    <br>
+                    <input name="lastname" type="lastname" id="lname" class="text-input">
+                </div>
+                <div>              
+                    <label for="email" class="input-labels">Email:</label>
+                    <br>
+                    <input name="email" type="email" id="email" class="text-input">
+                </div>
+                <div>                
+                    <label for="mentors-selection" class="input-labels">Choose your prefered mentor:</label>
+                    <br>
+                    <select name="mentor-selection" id="mentor-selection" class="text-input">
+                        <option value="" disabled selected>Select a Mentor</option>
+                        <option value="george-kraus">George Kraus</option>
+                        <option value="kylie-roberts">Kylie Roberts</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <fieldset id="checkbox">
+                    <legend>How can we help you?</legend>
+                    <div class="checkmark">    
+                        <input type="checkbox" name="newsletter" id="newsletter" value="yes" checked>
+                        <label for="consultation" class="checkbox-label">Newsletter</label>
+                    </div>
+                    <div class="checkmark">
+                        <input type="checkbox" name="consultation" id="consultation" value="yes">
+                        <label for="consultation" class="checkbox-label">Consultation</label>
+                    </div>
+                    <div class="checkmark">    
+                        <input type="checkbox" name="guided-sessions" id="guided-sessions" class="checkmark" value="yes">
+                        <label for="consultation" class="checkbox-label">Guided Sessions</label>
+                    </div>    
+                    <div class="checkmark">    
+                        <input type="checkbox" name="yoga-classes" id="yoga-classes" value="yes">
+                        <label for="consultation" class="checkbox-label">Yoga Classes</label>
+                    </div>
+                    </fieldset>  
+                </div>
+                <button type="submit" class="sumbit-button">Submit</button>
+
+            </form>
+        </section>
+
     </main>
 
     <!--Footer-->
