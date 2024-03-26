@@ -363,6 +363,7 @@ main {
     padding-left: 0.75rem;
     margin-left: 1rem;
     padding-bottom: 1rem;
+    font-size: 1rem;
 }
 
 /*Meditation Types*/
@@ -753,6 +754,7 @@ main {
 /*Media Query: Large tablets and responsive desktop*/
 @media screen and (min-width:1024px) {
     
+    /*Home Page*/
     /*Header*/
     #logo {
         font-size: 4.5rem;
@@ -767,7 +769,6 @@ main {
         padding-left: 2rem;
     }
     
-
     /*Main Content*/
     #banner-home {
         height: 600px;
@@ -793,7 +794,6 @@ main {
     }
 
     /*About clarity*/
-
     #about-clarity {
         padding: 2rem;
     }
@@ -812,7 +812,6 @@ main {
     }
 
     /*Benefits Section*/
-
     #benefits h2 {
         font-size: 36px;
     }
@@ -840,7 +839,9 @@ main {
         max-width: 350px;
     }
 
-    /*Main Get-Started HTML*/
+    
+    
+    /*Get-Started*/
     /*Method Section*/
     #basic-method {
         margin-top: 93px;
@@ -856,7 +857,24 @@ main {
         padding-right: 5rem;
     }
 
+    #method-instructions p {
+        font-size: 18px;
+        line-height: 1.75rem;
+    }
     
+    /*Meditation Types*/ 
+    #about-techniques > p {
+        font-size: 18px;
+        line-height: 1.75rem;
+    }
+    
+    #diffrent-techniques div p {
+        font-size: 18px;
+        line-height: 1.75rem;
+    }
+    
+    
+
     /*Resources HTML*/
     /*Main Conetent*/
     /*Music Resources*/
@@ -885,6 +903,7 @@ main {
     .about-kylie {
         border-radius: 10px;
     }
+
 
     
 }
