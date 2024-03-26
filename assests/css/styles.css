@@ -16,7 +16,7 @@ h1 {
     font-family: 'Euphoria Script', 'Lucida Sans', sans-serif;
 }
 
-h2 {
+h2, h3 {
     font-family: 'Poiret One', sans-serif;
 }
 
@@ -340,17 +340,13 @@ main {
     width: 100%;
 }
 
-#method-instructions li {
+#method-instructions h3 {
     margin-top: 1.5rem;
-    font-size: 1.25rem;
-    padding-left: 0.75rem;
-    color: #2b777c;
     font-weight: bold;
+    font-size: 1.5rem;
+    color: #2b777c;
 }
 
-#method-instructions li h2 {
-    font-size: 1.5rem;
-}
 
 #method-instructions > h2 {
     color: #2b777c;
@@ -358,16 +354,15 @@ main {
     font-weight: bolder;
     border-bottom: #2b777c solid 2px;
     padding-bottom: 1rem;
+    
 }
 
 #method-instructions p {
     margin-top: 0.75rem;
     line-height: 1.5rem;
     padding-left: 0.75rem;
-}
-
-#method-instructions ol {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
 }
 
 /*Meditation Types*/
@@ -572,7 +567,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
-    margin: 10% 0 10% 0;
+    margin: 5% 0 5% 0;
     width: 80%;
     height: auto;
     background-color: #00000070;
@@ -916,4 +911,5 @@ main {
     #diffrent-techniques div {
         width: 60%;
     }
+
 }

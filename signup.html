@@ -45,7 +45,6 @@
                         <h2>George Kraus</h2>
                         <p>George has been assisting people in finding their perfect meditation techniques for 5 years and provides private guided meditation classes.</p>
                     </div> 
-                </div>
             </div>
 
             <div class="mentor-options">
@@ -54,31 +53,30 @@
                         <h2>Kylie Roberts</h2>
                         <p>Kylie has been assisting people in finding their perfect meditation techniques for 5 years and provides private guided meditation classes.</p>
                     </div> 
-                </div>
             </div>
         </section>
 
         <section id="mentor-signup">
             <form id="signup-form" name="signup-form" method="post" action="https://formdump.codeinstitute.net">
                 <div>
-                    <label for="name" class="input-labels">Name:</label>
+                    <label for="firstname" class="input-labels">Name:</label>
                     <br>
-                    <input name="name" type="text" id="fname" class="text-input">
+                    <input name="firstname" type="text" id="firstname" class="text-input" required>
                 </div>
                 <div>               
                     <label for="lastname" class="input-labels">Surname:</label>
                     <br>
-                    <input name="lastname" type="lastname" id="lname" class="text-input">
+                    <input name="lastname" type="text" id="lastname" class="text-input" required>
                 </div>
                 <div>              
                     <label for="email" class="input-labels">Email:</label>
                     <br>
-                    <input name="email" type="email" id="email" class="text-input">
+                    <input name="email" type="email" id="email" class="text-input" required>
                 </div>
                 <div>                
-                    <label for="mentors-selection" class="input-labels">Choose your prefered mentor:</label>
+                    <label for="mentor-selection" class="input-labels">Choose your prefered mentor:</label>
                     <br>
-                    <select name="mentor-selection" id="mentor-selection" class="text-input">
+                    <select name="mentor-selection" id="mentor-selection" class="text-input" required>
                         <option value="" disabled selected>Select a Mentor</option>
                         <option value="george-kraus">George Kraus</option>
                         <option value="kylie-roberts">Kylie Roberts</option>
