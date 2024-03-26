@@ -3,7 +3,7 @@ Clarity was created to provide people seeking to achieve balance and relaxation 
 
 Clarity targets a range of users from beginer to advanced, with classes and mentoring available from industry professionals.  
 
-![Clarity-responsive-layout](assests\images\Readme Images\Clarity-responsive-layout.jpg)
+![Clarity-responsive-layout](/assests/images/Readme%20Images/Clarity-responsive-layout.jpg)
 
 ## Features
 
