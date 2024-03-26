@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Comfortaa', sans-serif;
-    color: #555555;
+    color: #4D4D4D;
 }
 
 
@@ -53,7 +53,7 @@ header {
 
 header a {
     text-decoration: none; /*Removes default hyperlink style*/
-    color: #808080;
+    color: #4D4D4D;
 }
 
 #menu {
@@ -100,7 +100,7 @@ nav {
 /*Label is bar icon*/
 .nav-bar-label {
     font-size: 2rem;
-    color: #c0c0c0;
+    color: #4D4D4D;
     margin-right: 25px;
 }
 
@@ -113,7 +113,7 @@ main {
 
 /*Banner Section*/
 #banner-home {
-    background: url("../images/pexels-noelle-otto-906097.jpg") no-repeat center center / cover;
+    background: url("../images/pexels-noelle-otto-906097.webp") no-repeat center center / cover;
     width: 100%;
     height: 400px;
     position: relative;
@@ -232,7 +232,7 @@ main {
 }
 
 #benefits-image {
-    background: url("../images/pexels-elina-fairytale-3822622.jpg") bottom left / cover;
+    background: url("../images/pexels-elina-fairytale-3822622.webp") bottom left / cover;
     order: -1;
     height: 225px;
     width: 350px;
@@ -266,15 +266,15 @@ main {
 }
 
 #get-started-image {
-    background: url("../images/pexels-nataliya-vaitkevich-5201529.jpg") no-repeat center center / cover;
+    background: url("../images/pexels-nataliya-vaitkevich-5201529.webp") no-repeat center center / cover;
 }
 
 #signup-image {
-    background: url("../images/pexels-yan-krukau-8436735.jpg") no-repeat center center / cover;
+    background: url("../images/pexels-yan-krukau-8436735.webp") no-repeat center center / cover;
 }
 
 #resource-image {
-    background: url("../images/zen-5533494_640.jpg") no-repeat center center / cover;
+    background: url("../images/zen-5533494_640.webp") no-repeat center center / cover;
 }
 
 .information {
@@ -331,7 +331,7 @@ main {
 #method-image {
     height: 300px;
     width: 100%;
-    background: url("../images/pexels-katrin-bolovtsova-7113344.jpg") no-repeat center center / cover;
+    background: url("../images/pexels-katrin-bolovtsova-7113344.webp") no-repeat center center / cover;
 }
 
 #method-instructions{
@@ -526,11 +526,11 @@ main {
 }
 
 #george-mentor {
-    background: url("../images/pexels-ivan-samkov-6648556.jpg") no-repeat top center / cover;
+    background: url("../images/pexels-ivan-samkov-6648556.webp") no-repeat top center / cover;
 }
 
 #kylie-mentor {
-    background: url("../images/pexels-valeria-ushakova-3094215.jpg") no-repeat center center / cover;
+    background: url("../images/pexels-valeria-ushakova-3094215.webp") no-repeat center center / cover;
 }
 
 .about-george,
@@ -557,7 +557,7 @@ main {
     width: 100%;
     height: auto;
     margin-top: 1rem;
-    background: url("../images/pexels-life-of-pix-7640.jpg");
+    background: url("../images/pexels-life-of-pix-7640.webp");
     background-size: cover;
 }
 
