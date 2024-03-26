@@ -37,4 +37,11 @@ Clarity targets a range of users from beginer to advanced, with classes and ment
 
 - Benefits of meditation
     - Shows all the health benefits of meditation, encouraging user to practise meditation.
-    - The benefits provide a reason for the user to continue exploring the site and potential signup for any number of services. 
+    - Displaying benefits provide a reason for the user to continue exploring the site and increase the need to learn meditaion increase the potential of signing up for any number of services offered.
+
+### Alernative Navigation
+
+![Alernative Navigatiion method images](/assests/images/Readme-images/Addtional-page-navigation.jpg)
+
+- Alernative naviagtion
+    - Providing users with an alernative navigation method to other pages when scrolling through the landing page.
