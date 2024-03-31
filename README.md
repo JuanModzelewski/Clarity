@@ -122,6 +122,11 @@ No bugs to report
 
 ### Content
 
+- Code
+    - The code to make the nav bar responsive was taken from the CI Love Running project.
+    - The footer code with social media icons was taken from CI Love Running project.
+    - Box shadow CSS was taken from https://getcssscan.com/css-box-shadow-examples
+
 - Home / Benefits of meditation 
     - https://www.healthline.com/nutrition/12-benefits-of-meditation
     - https://www.medicalnewstoday.com/articles/benefits-of-meditation
@@ -141,3 +146,6 @@ No bugs to report
 
 - Images 
     - All images were taken from Pexels.com
+
+- Icons
+    - Social & Nav icons taken from font awesome
