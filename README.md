@@ -72,7 +72,40 @@ Clarity targets a range of users from beginer to advanced, with classes and ment
 
 ### Mentor and Signup
 
-![Alernative Navigatiion method images](/assests/images/Readme-images/Mentors.jpg)
+![Images and Discription of meditation mentors](/assests/images/Readme-images/Mentors.jpg)
 
 - Displays the available mentors with breif description of their experience and expertise.
 - Provides the user with personal interaction when signing up and improves the trust when dealing with there chosen mentor.
+
+
+### Signup Form
+
+![Sign up form](/assests/images/Readme-images/Signup-form.jpg)
+
+- Allows users to signup to various services using email address.
+- Users are able to choose a mentor and intersts if needed or simply just signup for a newsletter
+
+
+## Testing
+
+- The site works on various browsers and has been tested on safari, chrome, edge and firefox.
+- The site is fully responsive and all items and function work on all screen sizes, tested using developement tools in browser.
+- All links for naviagtion work as they should and links to resources play the correct media on YouTube.
+- Headings, paragraphs and navigation items are legable and easy to understand on all screen sizes.
+- The form on Signup page works correctly and submits the correct information when submit button is clicked. 
+- The required fileds First Name, Last Name and email work correctly and display errors if not entered.
+
+### Validator Testing
+
+- HTML
+    - No errors were returned when analyzing with the offical WJC Validator on all pages.
+
+- CSS
+    - No errors were returned when analayzing with the offical CSS Validation Service.
+
+- Accessability
+    - All choosen fonts and color schemes provide clear readability and accessibility, checked when running through with lighthouse in devtools.
+
+![Lighthouse test](/assests/images/Readme-images/lighthouse-test-homepage.jpg)
+
+
