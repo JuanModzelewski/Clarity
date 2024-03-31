@@ -95,6 +95,11 @@ Clarity targets a range of users from beginer to advanced, with classes and ment
 - The form on Signup page works correctly and submits the correct information when submit button is clicked. 
 - The required fileds First Name, Last Name and email work correctly and display errors if not entered.
 
+
+### Bugs
+No bugs to report
+
+
 ### Validator Testing
 
 - HTML
@@ -109,3 +114,30 @@ Clarity targets a range of users from beginer to advanced, with classes and ment
 ![Lighthouse test](/assests/images/Readme-images/lighthouse-test-homepage.jpg)
 
 
+## Deployment
+- The site was deployed to GitHib pages
+- The live link is [Clarity](https://juanmodzelewski.github.io/Clarity/)
+
+## Credits
+
+### Content
+
+- Home / Benefits of meditation 
+    - https://www.healthline.com/nutrition/12-benefits-of-meditation
+    - https://www.medicalnewstoday.com/articles/benefits-of-meditation
+
+- Get Started / Getting Started 
+    - https://www.mindful.org/how-to-meditate/
+
+- Get Started / Types of meditation 
+    - https://planetmeditate.com/comparing-meditation-techniques/
+    - https://liveanddare.com/types-of-meditation/
+
+### Media
+
+- Resources
+    - Music - https://www.youtube.com/@ParadiseTonight
+    - Videos - https://www.youtube.com/@GreatMeditation
+
+- Images 
+    - All images were taken from Pexels.com
