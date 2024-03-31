@@ -37,7 +37,7 @@ Clarity targets a range of users from beginer to advanced, with classes and ment
 
 - Benefits of meditation
     - Shows all the health benefits of meditation, encouraging user to practise meditation.
-    - Displaying benefits provide a reason for the user to continue exploring the site and increase the need to learn meditaion increase the potential of signing up for any number of services offered.
+    - Displaying benefits provide a reason for the user to continue exploring the site and increases the need to learn meditaion and improves the potential of signing up for any number of services offered.
 
 ### Alernative Navigation
 
@@ -45,3 +45,27 @@ Clarity targets a range of users from beginer to advanced, with classes and ment
 
 - Alernative naviagtion
     - Providing users with an alernative navigation method to other pages when scrolling through the landing page.
+
+### Getting Started
+
+![Basic Meditation sections with indstructions](/assests/images/Readme-images/Getting-started.jpg)
+
+- Getting Started Instructions
+    - Displays the basic meditation technique, explaining to user how to get started on their meditation journey.
+    - Easy to follow step by step instructions with clear instructions.
+
+### Other Meditation Techniques
+
+![Other meditation techniques section](/assests/images/Readme-images/Other-techniques.jpg)
+
+- Other Meditation Techniques
+    - Provides the user with a list of various meditation techniques which can help them choose the best technique for their specific goals.
+    - Each technique is clearly displayed in its box with descriptive and defined information.
+
+### Resources
+
+![Resources page with music and video iframes](/assests/images/Readme-images/Addtional-page-navigation.jpg)
+
+- Resources
+    - Provides Music links / ifrmaes to enhance the users meditation experience, the music can be played directly from the resources page without the user leaving the site.
+    - Guided meditation videos assist the user in meditation and guide them throught the meditation experience to achieve their desired goals. 
