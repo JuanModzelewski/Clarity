@@ -12,9 +12,9 @@ Clarity caters to a wide variety of users, from beginners to experts, and offers
 ![Clarity Navigation bar image](/assests/images/Readme-images/Clarity-navigation-bar.jpg)
 
 - The Clarity logo is prominently displayed and, when clicked, provides a way to return to the home page from any page on the website.
-- Each page's title appears on the right with a contrast of colour and easily readable typography.
+- Each page's title appears on the right with a contrast of color and easily readable typography.
 - Easy to comprehend page titles and labels that directly relate to the content of the page.
-- To enhance user flow, pages are prioritised and arranged in sequence.
+- To enhance user flow, pages are prioritized and arranged in sequence.
 - On mobile devices, the page navigation collapses, revealing an icon and a drop-down menu with the different pages.
 
 
@@ -40,16 +40,16 @@ Clarity caters to a wide variety of users, from beginners to experts, and offers
 - Encourages users to meditate by demonstrating all the health benefits of meditation. Benefits that are displayed provide users a reason to keep exploring the website, motivate them to learn meditation, and raise the likelihood that they will join up for any of the many services available.
 
 
-### Alernative Navigation
+### Alternative Navigation
 
-![Alernative Navigatiion method images](/assests/images/Readme-images/Addtional-page-navigation.jpg)
+![Alternative Navigation method images](/assests/images/Readme-images/Addtional-page-navigation.jpg)
 
 - Giving users an alternate way to browse between pages while they scroll through the landing page.
 
 
 ### Getting Started
 
-![Basic Meditation sections with indstructions](/assests/images/Readme-images/Getting-started.jpg)
+![Basic Meditation sections with instructions](/assests/images/Readme-images/Getting-started.jpg)
 
 - Explains to the user how to begin their meditation journey by demonstrating the fundamental meditation technique.
 - Clear, easy-to-follow instructions that walk you through each step.
@@ -65,15 +65,15 @@ Clarity caters to a wide variety of users, from beginners to experts, and offers
 
 ### Resources
 
-![Resources page with music and video iframes](/assests/images/Readme-images/Resources-page.jpg)
+![Resources page with music and video iframe](/assests/images/Readme-images/Resources-page.jpg)
 
-- Offers links to music in iframes to improve users' meditation experiences, the music can be played directly from the resources page without the user leaving the site.
+- Offers links to music in iframe to improve users' meditation experiences, the music can be played directly from the resources page without the user leaving the site.
 - Guided Meditation Videos assist the user in guided meditation and walk them through the meditation experience to achieve their desired goals.
 
 
 ### Mentor and Signup
 
-![Images and Discription of meditation mentors](/assests/images/Readme-images/Mentors.jpg)
+![Images and Description of meditation mentors](/assests/images/Readme-images/Mentors.jpg)
 
 - Lists the mentors who are accessible along with a brief summary of their background and area of expertise.
 - Offers the user a personal sign-up experience and enhances their level of trust when interacting with their selected mentor.
@@ -105,13 +105,13 @@ No bugs to report
 ### Validator Testing
 
 - HTML
-    - No errors were returned when analyzing with the offical WJC Validator on all pages.
+    - No errors were returned when analyzing with the official WJC Validator on all pages.
 
 - CSS
-    - No errors were returned when analayzing with the offical CSS Validation Service.
+    - No errors were returned when analyzing with the official CSS Validation Service.
 
 - Accessability
-    - All choosen fonts and color schemes provide clear readability and accessibility, checked when running through with lighthouse in devtools.
+    - All chosen fonts and color schemes provide clear readability and accessibility, checked when running through with lighthouse in devtools.
 
 ![Lighthouse test](/assests/images/Readme-images/lighthouse-test-homepage.jpg)
 
