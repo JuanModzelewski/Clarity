@@ -401,6 +401,7 @@ main {
     justify-content: center;
     width: 100%;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 #diffrent-techniques div {
@@ -724,6 +725,11 @@ main {
     #method-instructions{
         width: 80%;
     }
+
+    #diffrent-techniques {
+        text-align: left;
+    }
+    
 
     /*Signup HTML*/
     /*Mentors*/
