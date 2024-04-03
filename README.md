@@ -96,19 +96,23 @@ Clarity caters to a wide variety of users, from beginners to experts, and offers
 ### Form
 
 - The form on the signup page works correctly and submits the correct information when the submit button is clicked. 
-![Formdump Report](/assests/images/Readme-images/formdump.jpg)
-
+<br>
+    ![Formdump Report](/assests/images/Readme-images/formdump.jpg)
+<br>
 - The required fields, First Name, Last Name, and Email, work correctly and display errors if not entered.
-![Error Message Form](/assests/images/Readme-images/form-error-message.jpg)
+<br>
+    ![Form error message](assests\images\Readme-images\form-error-message.jpg)
 
 ### Responsive
 
 - The site is fully responsive, and all items and functions work on all screen sizes. It was tested using development tools in the browser.
 
     - Tablet Resolution
+    <br>
     ![Tablet view homepage](/assests/images/Readme-images/Tablet-view-responsive.jpg)
 
     - Mobile Resolution
+    <br>
     ![Mobile view homepage](/assests/images/Readme-images/mobile-view-responsive.jpg)
 
 
