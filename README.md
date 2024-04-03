@@ -90,34 +90,79 @@ Clarity caters to a wide variety of users, from beginners to experts, and offers
 ## Testing
 
 - The site works on various browsers and has been tested on Safari, Chrome, Edge, and Firefox.
-- The site is fully responsive, and all items and functions work on all screen sizes. It was tested using development tools in the browser.
 - All links for navigation work as they should, and links to resources play the correct media on YouTube.
-
 - Headings, paragraphs, and navigation items are legible and easy to understand on all screen sizes.
-- The form on the signup page works correctly and submits the correct information when the submit button is clicked. 
-- The required fields, First Name, Last Name, and Email, work correctly and display errors if not entered.
 
+### Form
+
+- The form on the signup page works correctly and submits the correct information when the submit button is clicked. 
+![Formdump Report](/assests/images/Readme-images/formdump.jpg)
+
+- The required fields, First Name, Last Name, and Email, work correctly and display errors if not entered.
+![Error Message Form](/assests/images/Readme-images/form-error-message.jpg)
+
+### Responsive
+
+- The site is fully responsive, and all items and functions work on all screen sizes. It was tested using development tools in the browser.
+
+    - Tablet Resolution
+    ![Tablet view homepage](/assests/images/Readme-images/Tablet-view-responsive.jpg)
+
+    - Mobile Resolution
+    ![Mobile view homepage](/assests/images/Readme-images/mobile-view-responsive.jpg)
+
+
+### Validator Testing 
+
+1. HTML
+    - No errors were returned when analyzing with the official WJC Validator on all pages. 
+    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjuanmodzelewski.github.io%2FClarity%2F)
+
+![w3 Validator HTML](/assests/images/Readme-images/w3-validator-home-page.jpg)
+
+2. CSS
+    - No errors were returned when analyzing with the official CSS Validation Service.
+    - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+![w3 Validator HTML](/assests/images/Readme-images/w3c-validator-css.jpg)
+
+3. Accessability
+    - All chosen fonts and color schemes provide clear readability and accessibility, checked when running through with lighthouse in devtools.
+
+![Lighthouse test](/assests/images/Readme-images/lighthouse-test-homepage.jpg)
 
 ### Bugs
 No bugs to report
 
 
-### Validator Testing
-
-- HTML
-    - No errors were returned when analyzing with the official WJC Validator on all pages.
-
-- CSS
-    - No errors were returned when analyzing with the official CSS Validation Service.
-
-- Accessability
-    - All chosen fonts and color schemes provide clear readability and accessibility, checked when running through with lighthouse in devtools.
-
-![Lighthouse test](/assests/images/Readme-images/lighthouse-test-homepage.jpg)
-
-
 ## Deployment
-- The site was deployed to GitHib pages
+### GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not the top of the page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the drop-down called "None" and select "Main Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
+8. Click [Here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
 - The live link is [Clarity](https://juanmodzelewski.github.io/Clarity/)
 
 ## Credits
@@ -151,3 +196,4 @@ No bugs to report
 
 - Icons
     - Social & Nav icons taken from font awesome
+
