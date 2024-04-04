@@ -38,8 +38,10 @@ Since everyone experiences the consequences of stress in different ways, the ben
 #### Colors
 - The color scheme that was selected exudes tranquilly and relaxation.
     - Primary color (#2b777c) A turquoise with a peaceful, soothing vibe.
-    - Accent color (#73A9AD) A lighter shade of primary to be used as background with text.
-    - Font color (#4D4D4D) Compared to complete black, dark grey is less overwhelming and causes less eye strain.
+    - Accent color (#5f8a8d) A darker shade of primary to be used as background with white text.
+    - Accent color (#73A9AD) A lighter shade of primary to be used as background with dark text.
+    - Body Font color (#4D4D4D) Compared to complete black, dark grey is less overwhelming and causes less eye strain.
+    - Heading Font color (#2b777c) same as the primary color to draw attention to headings.
 
 #### Fonts
 - The selected typefaces complement the style objectives of the website and are easy to read. The subtle font type change highlights opposing aspects without being overpowering.
