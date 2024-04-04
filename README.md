@@ -1,4 +1,7 @@
 # Clarity
+
+- The live link is [Clarity](https://juanmodzelewski.github.io/Clarity/)
+
 Clarity was developed to help those who are looking for calm and balance in a hectic world full with stressors that are frequently difficult to manage. Clarity offers information on fundamental meditation practices as well as a variety of other forms of meditation to help people reach specific goals, giving them a foundation on which to start their meditation journey.
 
 Clarity caters to a wide variety of users, from beginners to experts, and offers industry specialists as mentors and instructors.
@@ -184,13 +187,13 @@ Since everyone experiences the consequences of stress in different ways, the ben
 
 1. HTML
     - No errors were returned when analyzing with the official WJC Validator on all pages. 
-    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjuanmodzelewski.github.io%2FClarity%2F)
+    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) / [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjuanmodzelewski.github.io%2FClarity%2F)
 
 ![w3 Validator HTML](/assests/images/Readme-images/w3-validator-home-page.jpg)
 
 2. CSS
     - No errors were returned when analyzing with the official CSS Validation Service.
-    - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) / [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjuanmodzelewski.github.io%2FClarity%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![w3 Validator HTML](/assests/images/Readme-images/w3c-validator-css.jpg)
 
@@ -212,16 +215,16 @@ Since everyone experiences the consequences of stress in different ways, the ben
 
 ## Mobile
 - Home Page <br>
-![Home Screen Mobile Lighthouse](assests/images/Readme-images/lighthouse-test-homepage-desktop.jpg)
+![Home Screen Mobile Lighthouse](assests/images/Readme-images/lighthouse-test-homepage-mobile.jpg)
 
 - Get Started Page <br>
-![Get Started Page Mobile Lighthouse](assests/images/Readme-images/lighthouse-test-get-started-desktop.jpg)
+![Get Started Page Mobile Lighthouse](assests/images/Readme-images/lighthouse-test-get-started-mobile.jpg)
 
 - Resources Page <br>
-![Resources Page Mobile Lighthouse](assests/images/Readme-images/lighthouse-test-resources-desktop.jpg)
+![Resources Page Mobile Lighthouse](assests/images/Readme-images/lighthouse-test-resources-mobile.jpg)
 
 - Sign Up Page <br>
-![Sign up Page Mobile Lighthouse](assests/images/Readme-images/lighthouse-test-signup-desktop.jpg)
+![Sign up Page Mobile Lighthouse](assests/images/Readme-images/lighthouse-test-signup-mobile.jpg)
 
 
 
@@ -286,8 +289,8 @@ By forking the GitHub Repository we make a copy of the original repository on ou
     - Videos - https://www.youtube.com/@GreatMeditation
 
 - Images 
-    - All images were taken from Pexels.com
+    - All images were taken from [Pexels](https://www.pexels.com/)
 
 - Icons
-    - Social & Nav icons taken from font awesome
+    - Social & Nav icons taken from font awesome [Font awesome](https://fontawesome.com/)
 
