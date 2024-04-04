@@ -270,14 +270,17 @@ main {
 
 #get-started-image {
     background: url("../images/pexels-nataliya-vaitkevich-5201529.webp") no-repeat center center / cover;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 #signup-image {
     background: url("../images/pexels-yan-krukau-8436735.webp") no-repeat center center / cover;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 #resource-image {
     background: url("../images/zen-5533494_640.webp") no-repeat center center / cover;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .information {
@@ -290,6 +293,7 @@ main {
     top: 20%;
     padding: 1.75rem 1rem 1.75rem 2rem;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .information h2 {
