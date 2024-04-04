@@ -6,7 +6,7 @@ Clarity caters to a wide variety of users, from beginners to experts, and offers
 ![Clarity website display on various platforms](/assests/images/Readme-images/Clarity-responsive-layout.jpg)
 
 ## User Experience (UX)
-### User Goals (Primary)
+### User Goals
 Users visiting the site are seeking to learn more about the different meditation techniques, how to get started, and access to personalized help if required. Users can easily comprehend these principles with the aid of visual demonstrations, guided audio sessions, and clear explanations. The site provides a flow of information that makes the practice of meditation easy to comprehend and divided into 4 pages.
 
 Since everyone experiences the consequences of stress in different ways, the benefits of meditation are appealing to all user types, regardless of age or gender.
@@ -46,7 +46,8 @@ Since everyone experiences the consequences of stress in different ways, the ben
 
 #### Images
 - The selected images all relate to the concept of meditation and convey the practice of meditation in a soothing and unwinding way.
-
+<br>
+<br>
 
 ## Existing Features
 
@@ -128,7 +129,27 @@ Since everyone experiences the consequences of stress in different ways, the ben
 
 - Enables users to register using email addresses for a number of services.
 - Users can select an interest and mentor, if necessary, or they can merely subscribe to the newsletter.
+<br>
+<br>
 
+## Technologies Used
+### Languages Used
+- HTML5
+- CSS3
+### Frameworks, Libraries & Programs Used
+- [Google Fonts:](https://fonts.google.com/)
+    Google fonts was used to import fonts to website from CSS style sheet using the CSS@import rule.
+- [Font Awesome:](https://fontawesome.com/)
+    Font Awesome was used to for social icons and bar nav icon in mobile layout using the provided script at the bottom of each page.
+- Git
+    Used for version control by utilizing the terminal to commit and push any changes to GitHub.
+- [GitHub (GitHub Desktop):](https://github.com/)
+    GitHub is used to store the project's code after being pushed from Git.
+    GitHub Desktop allows for easy creation and storing of repositories locally and an alternative push method.
+- [VS Code:](https://code.visualstudio.com/)
+    Visual Studio Code was used as IDE.
+<br>
+<br>
 
 ## Testing
 
