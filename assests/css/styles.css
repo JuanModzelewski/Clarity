@@ -883,7 +883,7 @@ main {
     }
 
     #method-image {
-        height: revert;
+        height: inherit;
         width: 40%;
     }
 
