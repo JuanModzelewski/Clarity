@@ -1,6 +1,6 @@
 # Clarity
 
-- The live link is [Clarity](https://juanmodzelewski.github.io/Clarity/)
+The live link is [Clarity](https://juanmodzelewski.github.io/Clarity/)
 
 Clarity was developed to help those who are looking for calm and balance in a hectic world full with stressors that are frequently difficult to manage. Clarity offers information on fundamental meditation practices as well as a variety of other forms of meditation to help people reach specific goals, giving them a foundation on which to start their meditation journey.
 
