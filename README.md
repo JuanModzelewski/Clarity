@@ -54,7 +54,7 @@ Since everyone experiences the consequences of stress in different ways, the ben
 
 #### Wireframe / Sketches
 - These sketches were created prior to finalizing website content.
-![Home Wire frame](/assests/images/Readme-images/home-page-sketch.JPG) ![Get Started Wire frame](/assests/images/Readme-images/get-strated-sketch.JPG) ![Resources Wire frame](/assests/images/Readme-images/resources-sketch.JPG) ![Sign up Wire frame](/assests/images/Readme-images/sign-up-form-sketch.JPG)
+![Wireframe](/assests/images/Readme-images/Wireframe-sketches.jpg)
 
 
 ## Existing Features
