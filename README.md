@@ -200,7 +200,8 @@ Since everyone experiences the consequences of stress in different ways, the ben
 3. Accessability
     - All chosen fonts and color schemes provide clear readability and accessibility, checked when running through with lighthouse in devtools.
 
-## Desktop
+### Google Lighthouse Testing
+#### Desktop
 - Home Page <br>
 ![Home Screen Desktop Lighthouse](assests/images/Readme-images/lighthouse-test-homepage-desktop.jpg)
 
@@ -213,7 +214,7 @@ Since everyone experiences the consequences of stress in different ways, the ben
 - Sign Up Page <br>
 ![Sign up Page Desktop Lighthouse](assests/images/Readme-images/lighthouse-test-signup-desktop.jpg)
 
-## Mobile
+#### Mobile
 - Home Page <br>
 ![Home Screen Mobile Lighthouse](assests/images/Readme-images/lighthouse-test-homepage-mobile.jpg)
 
