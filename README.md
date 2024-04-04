@@ -5,6 +5,49 @@ Clarity caters to a wide variety of users, from beginners to experts, and offers
 
 ![Clarity website display on various platforms](/assests/images/Readme-images/Clarity-responsive-layout.jpg)
 
+## User Experience (UX)
+### User Goals (Primary)
+Users visiting the site are seeking to learn more about the different meditation techniques, how to get started, and access to personalized help if required. Users can easily comprehend these principles with the aid of visual demonstrations, guided audio sessions, and clear explanations. The site provides a flow of information that makes the practice of meditation easy to comprehend and divided into 4 pages.
+
+Since everyone experiences the consequences of stress in different ways, the benefits of meditation are appealing to all user types, regardless of age or gender.
+
+### User Journey
+1. Home Page
+    - The content on the homepage validates the user's objectives and the reason they are on the website.
+    - The website's vision and goals are outlined in the "about" section, which fosters user trust and goal alignment.
+    - The benefits presented entice the user to explore the website more as they show the possible results of practicing meditation.
+    - The user experience is enhanced by additional navigation components in the form of graphics, which give the user an alternate way to navigate the website.
+
+2. Getting Started
+    - The steps necessary to get the user started on their path to practicing meditation and accomplishing the goals are the clear focus at the top of the page with instructions for the basic meditation technique.
+    - There is a descriptive list of various meditation techniques that provide the user with alternative methods to achieve their desired goals.
+
+3. Resources
+    - Links to improve their experience with meditation are provided by music resources.
+    - The guided meditation technique is aided by guided video materials.
+
+4. Sign up
+    - The mentors help users by providing them with individualized guidance, a someone to connect with to support them on their meditation journey, and any services they may require. (The mentor's services are not associated with the website; instead, they are discussed individually with the user upon enrollment.)
+    - The form is simple to use, and the input flows in accordance with industry best practices.
+
+### Design
+
+#### Colors
+- The color scheme that was selected exudes tranquilly and relaxation.
+    - Primary color (#2b777c) A turquoise with a peaceful, soothing vibe.
+    - Accent color (#73A9AD) A lighter shade of primary to be used as background with text.
+    - Font color (#4D4D4D) Compared to complete black, dark grey is less overwhelming and causes less eye strain.
+
+#### Fonts
+- The selected typefaces complement the style objectives of the website and are easy to read. The subtle font type change highlights opposing aspects without being overpowering.
+    - The websites uses Euphoria Script for the logo and Lucida Sans as a substitute.
+    - Heading elements are Poiret One and sans-serif as a substitute.
+    - Body font is Comfortaa and sans-serif as a substitute.
+
+#### Images
+- The selected images all relate to the concept of meditation and convey the practice of meditation in a soothing and unwinding way.
+
+
 ## Existing Features
 
 ### Navigation
@@ -97,11 +140,11 @@ Clarity caters to a wide variety of users, from beginners to experts, and offers
 
 - The form on the signup page works correctly and submits the correct information when the submit button is clicked.<br>
 
-    ![Formdump Report](/assests/images/Readme-images/formdump.jpg)
+    ![Form dump Report](/assests/images/Readme-images/formdump.jpg)
 
 - The required fields, First Name, Last Name, and Email, work correctly and display errors if not entered.<br>
 
-    ![Tablet view homepage](/assests/images/Readme-images/Tablet-view-responsive.jpg)
+    ![Form error message](/assests/images/Readme-images/form-error-message.jpg)
 
 ### Responsive
 
