@@ -1,6 +1,4 @@
-# Clarity
-
-The live link is [Clarity](https://juanmodzelewski.github.io/Clarity/)
+# [Clarity](https://juanmodzelewski.github.io/Clarity/)
 
 Clarity was developed to help those who are looking for calm and balance in a hectic world full with stressors that are frequently difficult to manage. Clarity offers information on fundamental meditation practices as well as a variety of other forms of meditation to help people reach specific goals, giving them a foundation on which to start their meditation journey.
 
@@ -53,6 +51,11 @@ Since everyone experiences the consequences of stress in different ways, the ben
 - The selected images all relate to the concept of meditation and convey the practice of meditation in a soothing and unwinding way.
 <br>
 <br>
+
+#### Wireframe / Sketches
+- These sketches were created prior to finalizing website content.
+![Home Wire frame](/assests/images/Readme-images/home-page-sketch.JPG) ![Get Started Wire frame](/assests/images/Readme-images/get-strated-sketch.JPG) ![Resources Wire frame](/assests/images/Readme-images/resources-sketch.JPG) ![Sign up Wire frame](/assests/images/Readme-images/sign-up-form-sketch.JPG)
+
 
 ## Existing Features
 
